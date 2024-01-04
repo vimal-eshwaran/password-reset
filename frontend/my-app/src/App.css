@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100dvw;
+  height: 100dvh;
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+.home-outer{
+  /* width: 75dvw; */
+  /* height: 50dvh; */
+  /* border: 2px solid red; */
+  margin: auto;
+}
+.home-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+.mycontainer{
+  min-height: 70dvh;
+  
+}
