@@ -62,7 +62,7 @@ const navigate=useNavigate();
                 body:JSON.stringify(formik.values)};
             // console.log("afteruser");
             
-  const response = await fetch('https://password-reset-wegn.onrender.com/api/signup',config);
+  const response = await fetch('https://password-reset-y8k0.onrender.com/api/signup',config);
         const data = await response.json();
   // enter you logic when the fetch is successful
               console.log(data);
