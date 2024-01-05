@@ -21,7 +21,7 @@ function Login({setToken}) {
                 },
                 body:JSON.stringify(user)
             }
-    const response = await fetch('https://password-reset-wegn.onrender.com/api/register/login',config)
+    const response = await fetch('https://password-reset-y8k0.onrender.com/api/register/login',config)
               
               
             const data = await response.json();
