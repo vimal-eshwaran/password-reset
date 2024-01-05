@@ -23,7 +23,7 @@ const hanldeSubmit= async(e)=>{
         body:JSON.stringify(email)
     }
 
-const user= await fetch('https://password-reset-wegn.onrender.com/api/forget/forgetPassword',config);
+const user= await fetch('https://password-reset-y8k0.onrender.com/api/forget/forgetPassword',config);
 if(user.ok){
 const data = await user.json();
 
